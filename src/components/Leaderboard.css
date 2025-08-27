@@ -1,0 +1,151 @@
+.leaderboard {
+  height: fit-content;
+}
+
+.leaderboard-header {
+  margin-bottom: 1.5rem;
+}
+
+.leaderboard-header h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.wallet-section {
+  text-align: center;
+}
+
+.connect-wallet-btn {
+  background: linear-gradient(45deg, #10B981, #059669);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.connect-wallet-btn:hover {
+  transform: translateY(-1px);
+}
+
+.wallet-connected {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.wallet-status {
+  font-size: 0.9rem;
+  color: #10B981;
+}
+
+.disconnect-btn {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.leaderboard-entry {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.2s;
+}
+
+.leaderboard-entry:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.entry-rank {
+  width: 2rem;
+  text-align: center;
+}
+
+.medal {
+  font-size: 1.2rem;
+}
+
+.rank-number {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.entry-info {
+  flex: 1;
+}
+
+.player-name {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.entry-score {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  color: #4F46E5;
+  font-weight: bold;
+}
+
+.entry-date {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+.entry-nft {
+  width: 1.5rem;
+  text-align: center;
+}
+
+.nft-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+
+.nft-link:hover {
+  transform: scale(1.2);
+}
+
+.no-nft {
+  opacity: 0.3;
+  font-size: 0.9rem;
+}
+
+.leaderboard-footer {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mint-info {
+  font-size: 0.85rem;
+  margin: 0 0 0.5rem 0;
+  opacity: 0.9;
+}
+
+.requirement {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin: 0;
+}
